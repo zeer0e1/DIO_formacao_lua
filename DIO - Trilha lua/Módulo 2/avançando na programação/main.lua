@@ -11,7 +11,7 @@ os.execute("chcp 65001")
 
 local function convertKilometersToMies(km)
     local miles = km / 1.609
-    return math.floor(mile + 0.5)
+    return math.floor(miles + 0.5)
 end
 
 local function getDate()
@@ -25,3 +25,12 @@ end
 
 print("Velocidades em velocidades: " .. mph)
 print("Data atual: " .. getDate())
+
+-- Parametros opicionais
+local function sayHello2(name)
+    name = name or "usuario"
+
+    print("Olá " .. name .. " Seja bem vindo ")
+end
+
+sayHello2()
