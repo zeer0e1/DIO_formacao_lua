@@ -1,12 +1,13 @@
 local player = {}
 
-player.name = "Kinigth"
-player.description = "Um cavaleiro que jurou proteger seu reino contra mosntros"
+player.name = "Violet"
+player.description = "Uma guerreira espadachin."
+
 player.maxHealth = 10
 player.health = 10
-player.atack = 4
-player.defence = 2
-player.speed = 1
+player.attack = 4
+player.defense = 2
+player.speed = 3
 
 player.potions = 3
 

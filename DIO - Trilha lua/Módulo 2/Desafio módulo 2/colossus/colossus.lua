@@ -1,13 +1,12 @@
-local colossuns = {}
+local colossus = {}
 
-colossuns.name = "Colossuns"
-colossuns.description = "Um gigante de pedra que guarda as ruinas antigas"
+colossus.name = "Prismarine Colossus"
+colossus.description = "Enorme estátua de prismarine que mede mais de 20 metros de altura."
 
-colossuns.maxHealth = 50
-colossuns.health = 50
-colossuns.atack = 5
-colossuns.defence = 9
-colossuns.speed = 0
+colossus.maxHealth = 20
+colossus.health = 20
+colossus.attack = 5
+colossus.defense = 6
+colossus.speed = 2
 
-
-return colossuns
+return colossus
